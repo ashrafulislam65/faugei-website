@@ -13,23 +13,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <nav class="flex justify-between px-36 pt-8 pb-30">
+        <nav class="flex justify-between px-6 lg:px-36 pt-8 pb-30">
             <img class="w-28 h-16" src="assets/logo.png" alt="">
-            <ul class="flex items-center space-x-12 ">
-                <li><a href="">Home</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Cart</a></li>
+            <ul class="flex items-center  lg:space-x-12 ">
+                <li class="lg:block hidden"><a href="">Home</a></li>
+                <li class="lg:block hidden"><a href="">Shop</a></li>
+                <li class="lg:block hidden"><a href="">About Us</a></li>
+                <li><a href=""><i class="fa-solid fa-cart-shopping"></i> Cart (<i
+                            class="fa-solid fa-dollar-sign"></i>56)</a></li>
             </ul>
         </nav>
     </header>
     <main>
-       
+        <!-- Banner section -->
+        <section class="flex-col  flex-col-reverse flex lg:flex-row lg:justify-between  px-6 lg:px-36 ">
+            <div class="lg:w-xl">
+                <h1 class="pt-3 lg:pb-3 font-bold lg:text-6xl">ALWAYS<span class="text-[#E95A08]">FRESH FLOWERS</span></h1>
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
+                    exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+            </div>
+            <div>
+                <img class=" lg:pl-96 " src="assets/hero-flower.png" alt="">
+            </div>
+        </section>
     </main>
     <footer></footer>
 
