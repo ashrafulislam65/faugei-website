@@ -8,13 +8,36 @@
     <script src="https://kit.fontawesome.com/6e80990d5d.js" crossorigin="anonymous"></script>
     <!-- Tailwind css cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!-- google font cdn -->
+    <!-- google font noto-serif cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <!-- google font inter cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        .noto-serif-font {
+            font-family: "Noto Serif", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
 
-    <title>Document</title>
+        .inter-font {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+
+    <title>Flower Shop</title>
 </head>
 
 <body>
@@ -34,7 +57,7 @@
         <!-- Banner section -->
         <section class="flex-col  flex-col-reverse flex lg:flex-row lg:justify-between  px-6 lg:px-36 ">
             <div class="lg:w-xl">
-                <h1 class="pt-3 lg:pb-3 font-bold lg:text-6xl">ALWAYS<span class="text-[#E95A08]">FRESH FLOWERS</span>
+                <h1 class="noto-serif-font pt-3 lg:pb-3 font-bold lg:text-6xl">ALWAYS<span class="text-[#E95A08]">FRESH FLOWERS</span>
                 </h1>
                 <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
                     exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
@@ -46,7 +69,7 @@
         <!-- Our Planet section -->
         <section>
             <div class="px-4 lg:px-36 pt-30 text-center">
-                <h2 class="font-bold lg:text-4xl pb-4"><span class="text-[#E95A08]">Our</span> Plants</h2>
+                <h2 class="font-bold lg:text-4xl pb-4"><span class="text-[#E95A08] noto-serif-font">Our</span> Plants</h2>
                 <p class="lg:px-78 pb-12">Indulge your senses with the beauty and fragrance of our fresh flower shop.
                     From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
@@ -112,7 +135,7 @@
                     src="assets/trusted-badge.png" alt="">
             </div>
             <div class="w-full lg:w-[540px] ">
-                <h1 class="font-bold lg:text-6xl lg:pt-12 pb-5">Flower & Plants Lover</h1>
+                <h1 class="font-bold lg:text-6xl lg:pt-12 pb-5 noto-serif-font ">Flower & Plants Lover</h1>
                 <ul class="list-disc  lg:pl-6 lg:text-2xl">
                     <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses
                         to exotic blooms, we offer a wide variety of fresh.</li>
@@ -126,7 +149,7 @@
         <!-- Latest deal section  -->
         <section class="lg:px-36">
             <div>
-                <h1 class="font-bold lg:text-4xl text-center lg:pt-32 pb-4"><span class="text-[#E95A08]">Latest</span>
+                <h1 class="font-bold lg:text-4xl text-center lg:pt-32 pb-4"><span class="text-[#E95A08] noto-serif-font">Latest</span>
                     Deals</h1>
                 <p class="lg:px-78  text-center pb-30">Indulge your senses with the beauty and fragrance of our fresh
                     flower shop. From classic roses to
@@ -157,7 +180,7 @@
         </section>
         <!-- join bunch section -->
         <section>
-            <div class=" text-center h-[433px] bg-[url('assets/news-letter-bg.png')]">
+            <div class="noto-serif-font text-center h-[433px] bg-[url('assets/news-letter-bg.png')]">
                 <h1 class="pb-6 pt-[199px] font-bold lg:text-6xl text-[#FFFFFF]">Join the colorful Bunch</h1>
                 <input class=" pl-6 lg:w-[644px] lg:h-[50px] bg-[#FFFFFF]" type="email" placeholder="write here" name=""
                     id="">
@@ -169,26 +192,28 @@
     <footer class="lg:flex px-6 lg:px-[160px] py-[50px] justify-between">
         <div>
             <img class="pb-3" src="assets/logo.png" alt="">
-            <p  class=" pb-3 lg:w-[189px]">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+            <p class=" pb-3 lg:w-[189px]">Indulge your senses with the beauty and fragrance of our fresh flower shop.
+            </p>
         </div>
-        
-            <ul>
-                <li class="pb-3">Home</li>
-                <li class=" pb-3">About Us</li>
-                <li class=" pb-3">Blog</li>
-                <li class=" pb-3">FAQ</li>
-                <li class=" pb-3">Contact Us</li>
-            </ul>
-            <ul>
-                <li class=" pb-3">Features</li>
-                <li class=" pb-3">Pricing</li>
-                <li class=" pb-3">Privacy Policy</li>
-                <li class=" pb-3">Terms of Service</li>
-                <li class=" pb-3">Help Center</li>
-            </ul>
-        
+
+        <ul>
+            <li class="pb-3">Home</li>
+            <li class=" pb-3">About Us</li>
+            <li class=" pb-3">Blog</li>
+            <li class=" pb-3">FAQ</li>
+            <li class=" pb-3">Contact Us</li>
+        </ul>
+        <ul>
+            <li class=" pb-3">Features</li>
+            <li class=" pb-3">Pricing</li>
+            <li class=" pb-3">Privacy Policy</li>
+            <li class=" pb-3">Terms of Service</li>
+            <li class=" pb-3">Help Center</li>
+        </ul>
+
         <div class="flex w-6 h-6 gap-4">
-            <img  src="assets/icon-linkedin.png" alt=""><img src="assets/icon-twitter.png" alt=""><img src="assets/icon-facebook.png" alt=""><img src="assets/icon-youtube.png" alt="">
+            <img src="assets/icon-linkedin.png" alt=""><img src="assets/icon-twitter.png" alt=""><img
+                src="assets/icon-facebook.png" alt=""><img src="assets/icon-youtube.png" alt="">
         </div>
     </footer>
 

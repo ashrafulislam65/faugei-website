@@ -1,14 +1,12 @@
-## 🌟 WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-002 😎
+## 🌟 WELCOME TO My Flower shop (Faugei) Website 😎
 
-### 📅 Deadline For 60 marks: 25th July, 2025 (11:59 pm ⏱️)
+### 📅 Details of my website are given below.
 
-### 📅 Deadline For 50 marks: 26th July, 2025 (11:59 pm ⏱️)
 
-### 📅 Deadline For 30 marks:\*\* Any time after 26th July.
 
 ---
 
-## ✅ Main Requirements (50 Marks)
+## ✅ Main Requirements 
 
 ### 1. Navbar
 
@@ -28,13 +26,13 @@
 - **Mobile Responsiveness:**
   - Image moves to the top
   - Content after image
-  - Content left aligned as Figma
+  - Content left aligned 
 
 ---
 
 ### 3. Plants Section
 
-- centered **Title and subtitle** as Figma
+- centered **Title and subtitle** 
 - **8 cards with 4 Collumn View** with image, name, price, and Add to cart button
 - **Mobile Responsiveness:**
   - Display Cards in 2 Collumn
@@ -44,49 +42,49 @@
 ### 4. Plants Lover Section
 
 - **Image** on the left
-- **Title and unordered list** on the right as Figma
+- **Title and unordered list** on the right 
 - **Mobile Responsiveness:**
   - Image moves to the top
   - Content after image
-  - Content left aligned as Figma
+  - Content left aligned 
 
 ---
 
 ### 5. Join Section
 
 - centered **Join the colorful Bunch** message
-- **Background image** in the full section like Figma
-- **Input box with placeholder** and **subscribe button** like Figma
-- **Mobile Responsiveness:** Responsive design like Figma
+- **Background image** in the full section 
+- **Input box with placeholder** and **subscribe button** 
+- **Mobile Responsiveness:** Responsive design 
 
 ---
 
 ### 6. Footer Section
 
 - **Website logo** on the left
-- **Home, features link items** just like Figma
-- **Mobile Responsiveness:** Responsive design like Figma
+- **Home, features link items** 
+- **Mobile Responsiveness:** Responsive design 
 
 ---
 
-## 🧪 Challenges Part ( 10 Mark)
+## 🧪 Challenges Part 
 
 ### Latest Deal Section
 
 - **Title and subtitles**
-- **Card layout** like Figma
-- **Mobile Responsiveness:** Show a card on display like Figma
+- **Card layout** 
+- **Mobile Responsiveness:** Show a card on display
 
 ---
 
 ### Trusted Plant Lover Badge
 
-- Position a Trusted badge at the **Plant Lover** Image as Figma
+- Position a Trusted badge at the **Plant Lover** 
 - - **Mobile Responsiveness:** Hide the Trusted badge in Mobile Device
 
 ---
 
-## 🕛 Optional Part ( 0 Marks)
+## 🕛 Optional Part 
 
 `⚠️ You wont get any support for Optional part. Search Google and try it yourself`
 
@@ -100,22 +98,22 @@
 
 - HTML
 - CSS (Vanilla/ Talwind CSS only)
-- ⚠️ **No libraries (e.g., DaisyUI, Flowbite) allowed.**
+- ⚠️ **No used libraries (e.g., DaisyUI, Flowbite) **
 
 ---
 
 ## 📌 Rules
 
-- ✅ Minimum **5 meaningful commits** required.
-- ❌ No Lorem Ipsum or dummy placeholder text. Use relevant content only.
+- ✅ Minimum **5 meaningful commits** added.
+- ❌ No Lorem Ipsum or dummy placeholder text were used. Relevant contents Provided.
 
 ---
 
-## 🔗 What to Submit
+## 🔗 Links
 
-- 📂 **GitHub Repository:**
-- 🌐 **Live Link:**
+- 📂 **GitHub Repository:** https://github.com/ashrafulislam65/faugei-website
+- 🌐 **Live Link:** https://ashrafulislam65.github.io/faugei-website/
 
 ---
 
-# Let's Code and Achieve your Dream 🎯
+# Rode to My  Dream 🎯
